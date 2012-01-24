@@ -1,2 +1,6 @@
+*.gem
 *.sublime-project
 *.sublime-workspace
+.bundle
+Gemfile.lock
+pkg/*

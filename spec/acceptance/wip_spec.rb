@@ -2,8 +2,9 @@ require "spec_helper"
 
 feature "WIP" do
 
-  scenario "Rails env test" do
+  scenario "test env" do
     visit "/"
+    page.should have_content "WIP feature"
   end
 
 end

@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Guilherme Cirne"]
   s.email       = ["gcirne@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{Very crude feature toggle for rails apps}
-  s.description = %q{Very crude feature toggle for rails apps}
+  s.summary     = %q{Very crude (no, really, I mean very crude!) feature toggle for rails apps}
+  s.description = %q{Very crude (no, really, I mean very crude!) feature toggle for rails apps}
 
   s.rubyforge_project = "rails_wip"
 
@@ -19,6 +19,6 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   # specify any dependencies here; for example:
-  # s.add_development_dependency "rspec"
+  s.add_development_dependency "rspec"
   # s.add_runtime_dependency "rest-client"
 end

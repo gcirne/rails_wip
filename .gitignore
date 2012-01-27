@@ -4,3 +4,5 @@
 .bundle
 Gemfile.lock
 pkg/*
+spec/rails_app/log/*
+

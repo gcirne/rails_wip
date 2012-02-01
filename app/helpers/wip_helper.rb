@@ -1,5 +1,5 @@
 module WipHelper
-  def wip
-    yield if Rails.env.test? || Rails.env.development? || params[:wip] == "true"
+  def wip(&block)
+    capture(&block) if Rails.env.test? || Rails.env.development? || params[:wip] == "true"
   end
 end

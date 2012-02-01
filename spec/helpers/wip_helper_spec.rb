@@ -11,9 +11,9 @@ describe WipHelper do
       end
 
       it "should yield block" do
-        yielded = false
-        helper.wip {yielded = true}
-        yielded.should be_true
+        block_called = false
+        helper.wip {block_called = true}
+        block_called.should be_true
       end
     end
 
@@ -24,9 +24,9 @@ describe WipHelper do
       end
 
       it "should yield block" do
-        yielded = false
-        helper.wip {yielded = true}
-        yielded.should be_true
+        block_called = false
+        helper.wip {block_called = true}
+        block_called.should be_true
       end
     end
 
@@ -40,9 +40,9 @@ describe WipHelper do
         before {helper.stub!(:params).and_return({})}
 
         it "should not yield block" do
-          yielded = false
-          helper.wip {yielded = true}
-          yielded.should be_false
+          block_called = false
+          helper.wip {block_called = true}
+          block_called.should be_false
         end
       end
 
@@ -50,9 +50,9 @@ describe WipHelper do
         before {helper.stub!(:params).and_return(:wip => "false")}
         
         it "should not yield block" do
-          yielded = false
-          helper.wip {yielded = true}
-          yielded.should be_false
+          block_called = false
+          helper.wip {block_called = true}
+          block_called.should be_false
         end
       end
 
@@ -60,9 +60,9 @@ describe WipHelper do
         before {helper.stub!(:params).and_return(:wip => "true")}
         
         it "should yield block" do
-          yielded = false
-          helper.wip {yielded = true}
-          yielded.should be_true
+          block_called = false
+          helper.wip {block_called = true}
+          block_called.should be_true
         end
       end
     end

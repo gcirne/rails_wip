@@ -15,6 +15,8 @@ if defined?(Bundler)
   # Bundler.require(:default, :assets, Rails.env)
 end
 
+require "rails_wip"
+
 module RailsApp
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.

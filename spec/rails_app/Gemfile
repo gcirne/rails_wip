@@ -1,8 +1,0 @@
-source 'http://rubygems.org'
-
-gem 'rails_wip', :path => '../../'
-
-group :test do
-  gem 'capybara'
-  gem 'rspec-rails'
-end

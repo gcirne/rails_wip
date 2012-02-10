@@ -1,4 +1,4 @@
-Rails Wip
+Rails Wip [![Build Status](https://secure.travis-ci.org/gcirne/rails_wip.png)](http://travis-ci.org/gcirne/rails_wip)
 =========
 
 ## About

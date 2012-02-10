@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = RailsWip::VERSION
   s.authors     = ["Guilherme Cirne"]
   s.email       = ["gcirne@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/gcirne/rails_wip"
   s.summary     = %q{Very crude (no, really, I mean very crude!) feature toggle for rails apps.}
   s.description = %q{Very crude (no, really, I mean very crude!) feature toggle for rails apps.}
 
